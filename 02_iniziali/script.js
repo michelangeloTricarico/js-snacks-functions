@@ -6,8 +6,8 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 // Dichiara la funzione qui.
 const letters = (names_par) => {
     let array=[]
-    for  (let i=0; i<names.length; i++){
-        let actualname=names[i]
+    for  (let i=0; i<names_par.length; i++){
+        let actualname=names_par[i]
         array.push(actualname[0])
     }
     return array
